@@ -1,9 +1,10 @@
 import Banner from "@/components/Banner";
-
+import Friends from "@/app/friends/page"
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div>
         <Banner/>
+        <Friends/>
     </div>
   );
 }
