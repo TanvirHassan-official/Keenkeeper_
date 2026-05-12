@@ -23,7 +23,7 @@ const friendCard = ({ friend }) => {
                             <p className="text-center px-1 bg-[#80fd80] rounded-2xl">{friend.tags[1]}</p>
                         </div>
                         <div className="justify-items-center">
-                            <p className={`text-center rounded-2xl text-white
+                            <p className={`text-center rounded-2xl text-white px-1
                                 ${friend.status === "on-track"
                                     ? "bg-green-500"
                                     : friend.status === "almost due"
