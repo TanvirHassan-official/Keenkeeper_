@@ -119,7 +119,7 @@ const FriendDetails = async ({ params }) => {
                         Connect every <span className="font-bold">{friend.goal} days</span>
                     </p>
 
-                <TimelineCard friend= {friend}/>
+                <TimelineCard friend= {friend} />
                 </div>
 
             </div>
