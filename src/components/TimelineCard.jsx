@@ -27,7 +27,7 @@ const TimelineCard = ({ friend }) => {
             time: today
         }
         setTimelineData([...timelineData, newData]);
-        toast.success("Done!");
+        toast.success(newData.clicked + " with " + data.name);
     }
 
     return (
