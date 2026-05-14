@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👥 KeenKeeper — Keep Your Friendships Alive
+[![Visit KeenKeeper](https://img.shields.io/badge/Visit-KeenKeeper-blue?style=for-the-badge)]([https://digitools.tanvirofficial.com](https://keenkeeper-gold.vercel.app/))
+## 📌 Overview
 
-## Getting Started
+**KeenKeeper** is a modern friendship management web application designed to help users maintain meaningful relationships and never lose touch with important people in their lives. The platform allows users to track interactions, manage friendship goals, and monitor communication history through an intuitive and responsive interface.
 
-First, run the development server:
+Whether it's a quick call, text, or video chat — KeenKeeper helps users stay socially connected in an organized way.
+
+---
+
+## ✨ Key Features
+
+### 👫 1. Friend Management System
+
+Browse and manage a collection of realistic friend profiles including:
+
+* Profile picture
+* Contact information
+* Friendship tags
+* Relationship status
+* Bio and communication goals
+
+Each friend card provides quick insights into interaction history and communication urgency.
+
+---
+
+### ⚡ 2. Quick Check-In Interactions
+
+Users can instantly log interactions through:
+
+* 📞 Call
+* 💬 Text
+* 🎥 Video Call
+
+Every interaction automatically creates a timeline entry with the current date and displays a toast notification for user feedback.
+
+---
+
+### 📜 3. Timeline Tracking System
+
+Keep track of all friendship activities in one place:
+
+* View interaction history
+* Timeline-based activity logs
+* Different icons for Call, Text, and Video interactions
+* Filter timeline entries by interaction type
+
+---
+
+### 📊 4. Friendship Analytics
+
+Visualize communication habits using interactive charts powered by Recharts:
+
+* Pie chart analytics
+* Interaction count tracking
+* Call/Text/Video activity comparison
+
+---
+
+## 🛠️ Technologies Used
+
+* **Next.js** – Application framework & routing
+* **React.js** – Component-based UI development
+* **Tailwind CSS** – Utility-first styling
+* **DaisyUI** – Pre-built responsive UI components
+* **JavaScript (ES6+)** – Core application logic
+* **React Icons** – Icon integration
+* **Recharts** – Data visualization and analytics
+* **React Toastify** – Toast notifications
+* **JSON** – Friend data management
+
+---
+
+## 🎯 Project Features
+  
+✅ Dynamic Friend Cards from JSON Data  
+✅ Friend Details Page with Two-Column Layout  
+✅ Timeline Interaction Logging System  
+✅ Toast Notifications for User Actions  
+✅ Analytics Page with Pie Chart  
+✅ Timeline Filtering Feature  
+✅ Loading Animation During Data Fetching  
+✅ Custom 404 Error Page  
+✅ Fully Responsive UI Design  
+
+---
+
+## 🚀 Pages Included
+
+| Page | Description |
+|------|-------------|
+| 🏠 Home | Banner, Summary Cards, Friend List |
+| 📜 Timeline | Interaction history with filters |
+| 📊 Stats | Friendship analytics using charts |
+| 👤 Friend Details | Detailed friend information & quick interactions |
+| ❌ 404 | Invalid route handling page |
+
+---
+
+## 💻 Getting Started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
