@@ -2,7 +2,7 @@ import FriendCard from "@/Components/FriendCard";
 import { Suspense } from "react";
 const page = async () => {
 
-  const res = await fetch("https://keenkeeper-lilac.vercel.app/friends.json");
+  const res = await fetch("http://localhost:3000/friends.json");
   const friends = await res.json();
 
   return (
