@@ -1,4 +1,4 @@
-import FriendCard from "@/Components/FriendCard";
+import FriendCard from "@/components/FriendCard";
 import { Suspense } from "react";
 const page = async () => {
 

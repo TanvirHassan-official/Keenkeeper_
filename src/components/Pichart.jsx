@@ -160,7 +160,7 @@ const ActivityPieChart = () => {
                 By Interaction Type
             </h2>
 
-            <div className="w-full h-[450px]">
+            <div className="w-full h-112.5">
 
                 <ResponsiveContainer>
 
