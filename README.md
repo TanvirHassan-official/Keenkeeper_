@@ -1,5 +1,5 @@
 # 👥 KeenKeeper — Keep Your Friendships Alive
-[![Visit KeenKeeper](https://img.shields.io/badge/Visit-KeenKeeper-blue?style=for-the-badge)]([https://digitools.tanvirofficial.com](https://keenkeeper-gold.vercel.app/))
+[![Visit KeenKeeper](https://img.shields.io/badge/Visit-KeenKeeper-blue?style=for-the-badge)](https://keenkeeper-gold.vercel.app/)
 ## 📌 Overview
 
 **KeenKeeper** is a modern friendship management web application designed to help users maintain meaningful relationships and never lose touch with important people in their lives. The platform allows users to track interactions, manage friendship goals, and monitor communication history through an intuitive and responsive interface.
