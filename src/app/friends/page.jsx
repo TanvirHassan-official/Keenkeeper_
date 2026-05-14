@@ -1,9 +1,10 @@
 import FriendCard from "@/components/FriendCard";
+import friends from "@/../public/friends.json";
 import { Suspense } from "react";
 const page = async () => {
 
-  const res = await fetch("http://localhost:3000/friends.json");
-  const friends = await res.json();
+  // const res = await fetch("http://localhost:3000/friends.json");
+  // const friends = await res.json();
 
   return (
     <div className="px-10 md:px-30 lg:px-50 py-10">

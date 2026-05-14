@@ -1,12 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
+import friends from "@/../public/friends.json";
 import TimelineCard from "@/components/TimelineCard";
 import { FaClockRotateLeft, FaBell, FaRegTrashCan, FaBoxArchive } from "react-icons/fa6";
 const FriendDetails = async ({ params }) => {
 
     const { id } = await params;
 
-    const res = await fetch("http://localhost:3000/friends.json");
-    const friends = await res.json();
+    // const res = await fetch("http://localhost:3000/friends.json");
+    // const friends = await res.json();
 
     const friend = friends.find(p => p.id == id);
 
