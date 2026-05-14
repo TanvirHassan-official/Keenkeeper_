@@ -5,7 +5,7 @@ const FriendDetails = async ({ params }) => {
 
     const { id } = await params;
 
-    const res = await fetch("http://localhost:3000/friends.json");
+    const res = await fetch("https://warm-platypus-18cbf7.netlify.app/friends.json");
     const friends = await res.json();
 
     const friend = friends.find(p => p.id == id);
